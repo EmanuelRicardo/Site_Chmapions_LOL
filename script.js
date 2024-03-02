@@ -3,12 +3,10 @@ function rodar_imagem1(){
     var adc_opcoes = window.document.getElementsByName('adc')
     var adc_escolhido = ''
     if (adc_opcoes[0].checked){
-        var adc_escolhido = 'tristana'
+        var adc_escolhido = 'Tristana'
     } else if (adc_opcoes[1].checked){
-        var adc_escolhido = 'ashe'
+        var adc_escolhido = 'Ashe'
     } else if (adc_opcoes[2].checked){
-        var adc_escolhido = 'sivir'
+        var adc_escolhido = 'Sivir'
     }
-
-    adc_resposta.innerhtml = `${adc_escolhido}`
 }
