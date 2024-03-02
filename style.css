@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+    background-color: #001F3F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+article {
+    text-align: center;
+    background-color: #CCCCCC;
+    color: #3D85C6;
+    padding-left: 10px;
+    padding-right: 10px;
+}
